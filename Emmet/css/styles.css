@@ -1,0 +1,10 @@
+#separate{
+    border: solid;
+    border-radius: 25px;
+    border-color: purple;
+    padding: 25px;
+}
+
+body{
+    background-color: lightslategray;
+}

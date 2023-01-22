@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmet</title>
+</head>
+<body>
+    <h1>Learning Emmet</h1>
+    <div id="separate">
+       <p>Head Command (!)</p> 
+    </div>
+
+    <div id="separate">
+        <nav>
+            <ul>
+                <li>Lorem ipsum</li>
+            </ul>
+        </nav>
+        <p>Child Command (nav>ul>li) (>)</p>
+    </div>
+    
+    <div id="separate">
+        <div>
+            <header>
+                <ul>
+                    <li><a href="">reprehenderit in voluptate</a></li>
+                    <li><a href="">mollit anim id est</a></li>
+                </ul>
+            </header>
+            <footer>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </footer>
+        </div>
+        <p>Group Command (div>(header>ul>li*2>a)+footer>p) ( () )</p>
+    </div>
+    
+    <div id="separate">
+        <div></div>
+        <p>laboris nisi ut aliquip ex ea commodo consequat</p>
+        <blockquote>I have no idea what to fill this with, so have some Lorem Ipsum.</blockquote>
+        <p>Sibling Command (div+p+bq) (+)</p>
+    </div>
+    
+    <div id="separate">
+        <ul>
+            <li>dolore eu fugiat</li>
+            <li>dolore eu fugiat</li>
+            <li>dolore eu fugiat</li>
+            <li>dolore eu fugiat</li>
+            <li>dolore eu fugiat</li>
+        </ul>
+        <p>Multiplication Command (ul>li*5) (*)</p>
+    </div>
+    
+    <div id="separate">
+        <ul>
+            <li class="item1">sed do eiusmod</li>
+            <li class="item2">sed do eiusmod</li>
+            <li class="item3">sed do eiusmod</li>
+            <li class="item4">sed do eiusmod</li>
+            <li class="item5">sed do eiusmod</li>
+        </ul>
+        <p>Item Numbering Command (ul>li.item$*5</p>
+    </div>
+    
+    <div id="separate">
+        <div id="ID">Lorum Ipsum</div>
+        <p>ID Command (#ID) (#)</p>
+    </div>
+    
+    <div id="separate">
+        <p class="class1">quis nostrud exercitation</p>
+        <p>Class Command (p.class1) (.)</p>
+    </div>
+    
+    <div id="separate">
+        <link rel="stylesheet" href="css/styles.css">
+        <p>Link Command (link)</p>
+    </div>
+    
+    <div id="separate">
+        <style>
+            h1{color:purple;}
+        </style>
+        <p>Style Command (style)</p>
+    </div>
+    
+    <div id="separate">
+        <li>Repeat</li>
+        <li>Repeat</li>
+        <li>Repeat</li>
+        <p>Text Command (li{Repeat}*3) ({})</p>
+    </div>
+    
+    <div id="separate">
+        <p title="This is a title.">Title Title</p>
+        <p>Title Command (p[title="This is a title."]) ([title=])</p>
+    </div>
+    
+    <div id="separate">
+        <table>
+            <tr>tr</tr>
+            <tr>tr</tr>
+            <tr>tr</tr>
+            <tr>tr</tr>
+            <tr>tr</tr>
+            <td>td</td>
+            <td>td</td>
+            <td>td</td>
+        </table>
+        <p>Table with Multiplication and Grouping (table>(tr*5)>(td*3))</p>
+    </div>
+    
+</body>
+</html>
